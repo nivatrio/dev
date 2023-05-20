@@ -1,0 +1,76 @@
+
+{
+  "zedcustomer" : "prodapt zed",
+  "plantsize": 30,
+  "zedlimit": 0,
+  "plantoperatingpercentage":100,
+  "resetzed": "n",
+  "zedbasedon": "load",
+  "zedmeter": [
+    {
+      "zedmeterid": 3,
+      "zedmetertype" : "rtu",
+      "zedmeterip":"192.168.0.103",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "zedmetermultiplicationfactor" : 1,
+      "functionCode": 3,
+      "registers": [
+        {
+          "start": 3059,
+          "count": 2
+        
+        }
+      ]
+    }
+
+  ],
+  "inverters": [
+    {
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "slaveIp" : "192.168.1.127",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "invsize" : 15,
+      "activepowerctrl" :  4160,
+      "activepowerctrlvalue" :  7,
+      "functionCode": 4,
+      "activepower" : 12,
+      "activepowerregcount" : 1,
+      "invmultiplicationfactor": 10,
+      "registers": [
+        {
+          "start": 4161,
+          "count": 1
+        }
+      ]
+    },
+        {
+      "slaveId": 2,
+      "slaveType":"RTU",
+      "slaveIp" : "192.168.1.127",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "invsize" : 15,
+      "activepowerctrl" :  4160,
+      "activepowerctrlvalue" :  7,
+      "functionCode": 4,
+      "activepower" : 12,
+      "activepowerregcount" : 1,
+      "invmultiplicationfactor": 10,
+      "registers": [
+        {
+          "start": 4161,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

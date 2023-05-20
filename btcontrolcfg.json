@@ -1,0 +1,46 @@
+{
+  "loadmeterid": 2,
+  "loadmetertype": "TCP",
+  "loadmeterip": "192.168.1.115:502",
+  "baudRate": 9600,
+  "dataBits": 8,
+  "stopBits": 1,
+  "parity": "N",
+  "loadregister": 139,
+  "loadregistercount": 1,
+  "forcecharge": 0,
+  "bmsinverters": [
+    {
+      "slaveId": 1,
+      "slaveType": "TCP",
+      "slaveIp": "192.168.1.115:502",
+      "bmsforcemqtttopic": "triosolar/inverter/aus/indiaplaza",
+      "mulfactor": 10,
+      "soclimtlow": 15,
+      "socdislimitlow": 20,
+      "chrgstartlimts": [
+        {
+          "chminlimit": 5000,
+          "chmaxlimit": 10000,
+          "chratemin": 5,
+          "chratemax": 10
+        }
+      ],
+      "disstartlimts": [
+        {
+          "disminlimit": 5000,
+          "dismaxlimit": 10000,
+          "disratemax": 10,
+          "disratemin": 5
+        }
+      ],
+      "socreg": 141,
+      "registers": [
+        {
+          "start": 137,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

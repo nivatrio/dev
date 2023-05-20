@@ -1,0 +1,31 @@
+{
+   "logger": "testjson", 
+  "jsondevices": [
+    {
+      "devicename": "Anup_5K_inv",
+      "urllist": [ "powrflow$192.168.20.101/solar_api/v1/GetPowerFlowRealtimeData.fcgi",
+        "inverterrealtime$192.168.20.101/solar_api/v1/GetInverterRealtimeData.cgi?Scope=System",
+        "cumulativeinverterdata$192.168.20.101/solar_api/v1/GetInverterRealtimeData.cgi?Scope=Device&DeviceId={1}&DataCollection=CumulationInverterData",
+        "commondata$/solar_api/v1/GetInverterRealtimeData.cgi?Scope=Device&DeviceId={1}&DataCollection=CommonInverterData"
+
+      ]
+    },
+    {
+        "devicename": "Anup_5K_Meter",
+         "urllist": [
+          "meterrealtime$192.168.20.101/solar_api/v1/GetMeterRealtimeData.cgi?Scope=System",
+          "cumulativemeterdta$192.168.20.101/solar_api/v1/GetMeterRealtimeData.cgi?Scope=Device&DeviceId=1"  
+
+          
+        ]
+      },
+      {
+        "devicename": "Anup_5K_Storage",
+        "urllist": [
+         "storagerealdata$192.168.20.101/solar_api/v1/GetStorageRealtimeData.cgi?Scope=Device&DeviceId=1"
+          
+        ]
+      }
+
+  ]
+}

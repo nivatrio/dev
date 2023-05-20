@@ -1,0 +1,91 @@
+{
+  "inverters": [
+    {
+      "name": "prodapt-inv-1",
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.120",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 0,
+          "count": 27
+        },
+         {
+          "start": 27,
+          "count": 19
+        }
+  ]
+},
+  {
+      "name": "prodapt-inv-2",
+      "slaveId": 2,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.1",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 0,
+          "count": 27
+        },
+         {
+          "start": 27,
+          "count": 19
+        }
+  ]
+},
+  {
+      "name": "prodapt-load-meter",
+      "slaveId": 3,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.122",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 2700,
+          "count": 24
+        },
+        {
+          "start": 2999,
+          "count": 36
+        },
+        {
+          "start": 3035,
+          "count": 58
+        },
+        {
+          "start": 3109,
+          "count": 2
+        },
+        {
+          "start": 3191,
+          "count": 6
+        },
+        {
+          "start": 3199,
+          "count": 52
+        },
+        {
+          "start": 3763,
+          "count": 8
+        },
+        {
+          "start": 3875,
+          "count": 8
+        }
+  ]
+}
+]
+}

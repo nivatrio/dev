@@ -1,0 +1,21 @@
+{
+    "ZedLimit":10,
+    "RtuDevice":"/dev/ttyUSB0",
+    "BaudRate":9600,
+    "DataBits":8,
+    "Parity":"N",
+    "StopBits":1,
+    "PlantSize":48,
+    "MqttZedInverters":
+    [
+        {
+            "slaveId":12,
+            "slaveType":"TCP",
+            "slaveIp":"192.168.1.138:502",
+            "invlimitin":"k",
+            "invsize":50,
+            "inverter_register":53601,
+            "setLimit":10
+        }
+    ]
+}
