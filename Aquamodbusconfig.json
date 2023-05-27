@@ -1,0 +1,181 @@
+{
+  "inverters": [
+    {
+      "name": "SP-kamuthi-Inverter-1",
+      "slaveId": 1,
+      "slaveType":"TCP",
+      "functionCode": 4,
+      "slaveIp" : "192.168.1.120",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 30000,
+          "count": 100
+        },        
+        {
+          "start": 40000,
+          "count": 100
+        }
+  ]
+},
+  {
+      "name": "SP-kamuthi-Inverter-2",
+      "slaveId": 1,
+      "slaveType":"TCP",
+      "functionCode": 4,
+      "slaveIp" : "192.168.1.1",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 30000,
+          "count": 100
+        },
+        {
+          "start": 40000,
+          "count": 100
+        }
+  ]
+},
+  {
+      "name": "SP-kamuthi-Inverter-1 String",
+      "slaveId": 1,
+      "slaveType":"TCP",
+      "functionCode": 4,
+      "slaveIp" : "192.168.1.122",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 40000,
+          "count": 100
+        }
+  ]
+},
+  {
+      "name": "SP-kamuthi-Inverter-2 String",
+      "slaveId": 1,
+      "slaveType":"TCP",
+      "functionCode": 4,
+      "slaveIp" : "192.168.1.124",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 40000,
+          "count": 100
+        }
+  ]
+},
+  {
+      "name": "SP-kamuthi-TVM METER",
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "NA",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 42101,
+          "count": 100
+        },
+        {
+          "start": 42405,
+          "count": 100
+        }
+        
+  ]
+},
+  {
+      "name": "SP-kamuthi-WMS",
+      "slaveId": 2,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "NA",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 40001,
+          "count": 25
+        }      
+  ]
+},
+  {
+      "name": "SP-kamuthi-MFM",
+      "slaveId": 3,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "NA",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 40100,
+          "count": 100
+        },
+        {
+          "start": 40200,
+          "count": 100
+        }      
+  ]
+},
+  {
+      "name": "SP-kamuthi-RELAY",
+      "slaveId": 4,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "NA",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 3000,
+          "count": 100
+        },
+        {
+          "start": 3100,
+          "count": 100
+        },
+        {
+          "start": 3300,
+          "count": 100
+        },
+        {
+          "start": 2700,
+          "count": 100
+        },
+        {
+          "start": 2900,
+          "count": 100
+        }, 
+        {
+          "start": 2800,
+          "count": 100
+        },  
+        {
+          "start": 4000,
+          "count": 100
+        }    
+  ]
+}
+]
+}
