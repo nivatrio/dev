@@ -1,7 +1,7 @@
 {
   "inverters": [
     {
-      "name": "SP-kamuthi-Inverter-1",
+      "name": "aquodev-1",
       "slaveId": 1,
       "slaveType":"TCP",
       "functionCode": 4,
@@ -22,7 +22,7 @@
   ]
 },
   {
-      "name": "SP-kamuthi-Inverter-2",
+      "name": "aquodev-2",
       "slaveId": 1,
       "slaveType":"TCP",
       "functionCode": 4,
@@ -43,7 +43,7 @@
   ]
 },
   {
-      "name": "SP-kamuthi-Inverter-1 String",
+      "name": "aquodev",
       "slaveId": 1,
       "slaveType":"TCP",
       "functionCode": 4,
@@ -60,7 +60,7 @@
   ]
 },
   {
-      "name": "SP-kamuthi-Inverter-2 String",
+      "name": "aquodev",
       "slaveId": 1,
       "slaveType":"TCP",
       "functionCode": 4,
@@ -77,7 +77,7 @@
   ]
 },
   {
-      "name": "SP-kamuthi-TVM METER",
+      "name": "aquodev",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -99,7 +99,7 @@
   ]
 },
   {
-      "name": "SP-kamuthi-WMS",
+      "name": "aquodev",
       "slaveId": 2,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -116,7 +116,7 @@
   ]
 },
   {
-      "name": "SP-kamuthi-MFM",
+      "name": "aquodev",
       "slaveId": 3,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -137,7 +137,7 @@
   ]
 },
   {
-      "name": "SP-kamuthi-RELAY",
+      "name": "aquodev",
       "slaveId": 4,
       "slaveType":"RTU",
       "functionCode": 3,
