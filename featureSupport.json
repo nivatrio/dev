@@ -1,6 +1,6 @@
 {
   "pins": [17,16],
-  "customername":"prodapt",
+  "customername":"dev",
   "ftmodbus": "y",
   "ftjson": "n",
   "ftzed": "y",
