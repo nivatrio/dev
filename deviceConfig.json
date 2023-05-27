@@ -1,5 +1,6 @@
 {
       "name": "dev",
-      "deviceId": 1
+      "deviceId": 1,
+      "deviceType": "solar"
 }
 
