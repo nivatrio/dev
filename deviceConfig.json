@@ -1,8 +1,5 @@
 {
-      "name": "prodapt",
-      "deviceId": 1,
-      "sltime" : 50,
-      "lowtemp" : 20,
-      "hightemp" : 40
+      "name": "dev",
+      "deviceId": 1
 }
 
