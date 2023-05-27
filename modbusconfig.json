@@ -1,7 +1,7 @@
 {
   "inverters": [
     {
-      "name": "prodapt-inv-1",
+      "name": "dev-inv-1",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -22,7 +22,7 @@
   ]
 },
   {
-      "name": "prodapt-inv-2",
+      "name": "dev-inv-2",
       "slaveId": 2,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -43,7 +43,7 @@
   ]
 },
   {
-      "name": "prodapt-load-meter",
+      "name": "dev-load-meter",
       "slaveId": 3,
       "slaveType":"RTU",
       "functionCode": 3,
