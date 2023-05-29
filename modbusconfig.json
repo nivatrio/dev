@@ -1,7 +1,7 @@
 {
   "inverters": [
     {
-      "name": "dev-inv-1",
+      "name": "dev-inv-1-test",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -22,7 +22,7 @@
   ]
 },
   {
-      "name": "dev-inv-2",
+      "name": "dev-inv-2-nottest",
       "slaveId": 2,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -43,7 +43,7 @@
   ]
 },
   {
-      "name": "dev-load-meter",
+      "name": "dev-load-meter-test",
       "slaveId": 3,
       "slaveType":"RTU",
       "functionCode": 3,
