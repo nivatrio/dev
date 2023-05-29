@@ -1,0 +1,8 @@
+{
+  "pins": [17,16],
+  "customername":"niva-aquo",
+  "ftmodbus": "y",
+  "interval": 30,
+  "mqttcaltopic" :"niva/1/cal/do",
+  "mqttpubtopic" :"niva/1/data/do"
+}

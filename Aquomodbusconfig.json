@@ -1,0 +1,30 @@
+{
+  "inverters": [
+    {
+      "name": "Digital-do-Sensor",
+      "slaveId": 10,
+      "slaveType":"RTU",
+      "functionCode": 4,
+      "slaveIp" : "192.168.1.120",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 2,
+          "count": 12
+        },
+        {
+          "start": 16,
+          "count": 6
+        },
+        {
+          "start": 27,
+          "count": 1
+        }
+  ]
+}
+ 
+]
+}
