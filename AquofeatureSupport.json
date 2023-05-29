@@ -2,7 +2,14 @@
   "pins": [17,16],
   "customername":"niva-aquo",
   "ftmodbus": "y",
-  "interval": 30,
-  "mqttcaltopic" :"niva/1/cal/do",
-  "mqttpubtopic" :"niva/1/data/do"
+  "interval": 10,
+  "mqttcaltopic" :"niva/1/cal/pf",
+  "mqttpubtopic" :"niva/1/data/pf",
+  "wificonnected" : [0,255,0],
+  "wifierror": [255,0,0],
+  "TestStarted":[0,255,0],
+  "TestCompleted": [0,255,0],
+  "TestDataSend": [0,0,255],
+  "calStart": [0,255,0],
+  "calEnd":[0,255,0]
 }
