@@ -2,7 +2,7 @@
   "pins": [17,16],
   "ledpins":21,
   "customername":"dev",
-  "ftmodbus": "y",
+  "ftmodbus": "n",
   "ftjson": "n",
   "ftzed": "y",
   "interval": 10,
