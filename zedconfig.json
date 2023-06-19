@@ -7,9 +7,9 @@
   "zedbasedon": "grid",
   "zedmeter": [
     {
-      "zedmeterid": 3,
+      "zedmeterid": 1,
       "zedmetertype" : "tcp",
-      "zedmeterip":"192.168.1.40",
+      "zedmeterip":"192.168.1.70",
       "baudRate": 9600,
       "dataBits": 8,
       "stopBits": 1,
@@ -18,7 +18,7 @@
       "functionCode": 3,
       "registers": [
         {
-          "start": 3060,
+          "start": 1,
           "count": 1
         
         }
@@ -30,43 +30,43 @@
     {
       "slaveId": 1,
       "slaveType":"tcp",
-      "slaveIp" : "192.168.1.40",
+      "slaveIp" : "192.168.1.70",
       "baudRate": 9600,
       "dataBits": 8,
       "stopBits": 1,
       "parity": "none",
       "invsize" : 70,
-      "activepowerctrl" :  48511,
+      "activepowerctrl" :  2,
       "activepowerctrlvalue" :  1,
       "functionCode": 3,
-      "activepower" : 49151,
+      "activepower" : 6,
       "activepowerregcount" : 1,
       "invmultiplicationfactor": 1,
       "registers": [
         {
-          "start": 48512,
+          "start": 3,
           "count": 1
         }
       ]
     },
         {
-      "slaveId": 2,
+      "slaveId": 1,
       "slaveType":"tcp",
-      "slaveIp" : "192.168.1.40",
+      "slaveIp" : "192.168.1.70",
       "baudRate": 9600,
       "dataBits": 8,
       "stopBits": 1,
       "parity": "none",
       "invsize" : 70,
-      "activepowerctrl" :  48511,
+      "activepowerctrl" :  4,
       "activepowerctrlvalue" :  1,
       "functionCode": 3,
-      "activepower" : 49151,
+      "activepower" : 7,
       "activepowerregcount" : 1,
       "invmultiplicationfactor": 1,
       "registers": [
         {
-          "start": 48513,
+          "start": 5,
           "count": 1
         }
       ]
