@@ -1,7 +1,7 @@
 {
-  "pins": [17,16],
-  "ledpins":21,
-  "calibrationpins": 15,
+  "pins": [1,0],
+  "ledpins":2,
+  "calibrationpins": 3,
   "customername":"niva-aquo",
   "ftmodbus": "y",
   "interval": 10,
