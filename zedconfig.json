@@ -8,6 +8,7 @@
   "zedmeter": [
     {
       "zedmeterid": 1,
+      "DGzedmeterid": 2,
       "zedmetertype" : "tcp",
       "zedmeterip":"192.168.1.70",
       "baudRate": 9600,
