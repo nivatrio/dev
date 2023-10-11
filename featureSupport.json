@@ -1,5 +1,5 @@
 {
-  "pins": [17,16],
+  "pins": [1,0],
   "ledpins":21,
   "customername":"dev",
   "ftmodbus": "y",
