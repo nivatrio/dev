@@ -1,6 +1,6 @@
 {
-  "pins": [1,0],
-  "ledpins":2,
+  "pins": [17,16],
+  "ledpins":21,
   "customername":"dev",
   "ftmodbus": "y",
   "ftjson": "n",
