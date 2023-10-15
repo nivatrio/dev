@@ -4,7 +4,7 @@
   "customername":"dev",
   "ftmodbus": "y",
   "ftjson": "n",
-  "ftzed": "r",
+  "ftzed": "n",
   "interval": 10,
   "ftmqttcontrol": "n",
   "ftbtcontrol": "n",
