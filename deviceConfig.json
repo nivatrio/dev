@@ -1,6 +1,7 @@
 {
       "name": "dev",
       "deviceId": 1,
+         "debug": "y",
       "deviceType": "solar"
 }
 
