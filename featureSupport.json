@@ -1,4 +1,9 @@
 {
+    "version":0.1,
+   "sdlogging":"n",
+  "cloudeMqtt": "y",
+  "localMqttServer": "192.168.1.10",
+  "cloudeMqttServer": "triosolar.co.in",
   "pins": [17,16],
   "ledpins":21,
   "customername":"dev",
